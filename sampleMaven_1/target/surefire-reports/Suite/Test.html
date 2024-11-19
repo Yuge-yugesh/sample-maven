@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 06 08:46:41 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>77 seconds (77161 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Cars.RangeRoverTest.launched()'><b>launched</b><br>Test class: Cars.RangeRoverTest<br/>
+<a href="#Output-191005810" onClick='toggleBox("Output-191005810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-191005810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-191005810">
+range-rover launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>Cars.RangeRoverTest@35ef1869</td></tr>
+<tr>
+<td title='Cars.FerrariTest.launched()'><b>launched</b><br>Test class: Cars.FerrariTest<br/>
+<a href="#Output-1783120729" onClick='toggleBox("Output-1783120729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1783120729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1783120729">
+Ferrari launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>Cars.FerrariTest@16ec5519</td></tr>
+<tr>
+<td title='Cars.MiniCooperTest.launched()'><b>launched</b><br>Test class: Cars.MiniCooperTest<br/>
+<a href="#Output-1973143096" onClick='toggleBox("Output-1973143096", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1973143096" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1973143096">
+mini-cooper launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>Cars.MiniCooperTest@50eac852</td></tr>
+<tr>
+<td title='Cars.LamborghiniTest.launched()'><b>launched</b><br>Test class: Cars.LamborghiniTest<br/>
+<a href="#Output-288933987" onClick='toggleBox("Output-288933987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-288933987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-288933987">
+lamborghini launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>Cars.LamborghiniTest@61df66b6</td></tr>
+</table><p>
+</body>
+</html>
